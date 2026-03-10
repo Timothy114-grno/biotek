@@ -1,0 +1,141 @@
+header{
+  text-align: center;
+  background-color: rgb(234, 155, 52);
+  padding: 10px 15px;
+}
+nav{
+  margin: 10px;
+ 
+}
+nav a{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    padding: 5px 15px;
+    color: rgb(239, 253, 42);
+    text-decoration: none;
+    border-radius: 15px 0px 15px 0px;
+    transition: 1s;
+}
+
+nav a:hover{
+  color: rgb(202, 105, 25);
+  background-color: antiquewhite;
+  border-radius: 15px 0px 15px 0px;
+  box-shadow: 5px 5px 5px -2px burlywood;
+  padding: 7px 20px;
+  transition: 0.5s;
+  
+}
+
+body{
+  margin: 0px;
+  background-color: brown;
+}
+
+.home{
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  padding-top: 50px;
+
+}
+.deskripsihome{
+  width: 40%;
+  font-size: 20px;
+  background-size: cover;
+  padding-top: 50px;
+  margin-left: 50px;
+  & h3{
+    color: rgb(14, 8, 8);
+    background-color: rgba(250, 104, 0, 0.856);
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+  
+  & p {
+    color:rgb(0, 0, 0) ;
+    background-color: rgb(202, 123, 33);
+    border-radius: 10px;
+    padding: 10px 10px;
+  }
+
+  & h1 {
+    color: rgb(241, 183, 35);
+  }
+}
+
+.deskripsihome a{
+  text-decoration: none;
+  color: burlywood;
+  background-color: rgb(197, 109, 28);
+  padding: 10px 25px;
+  border-radius: 30px
+}
+.deskripsihome a:hover{
+  box-shadow: 0px 0px 7px 12px;
+  transition: 1s;
+}
+section.project img{
+height: 300px;
+text-align: center;
+background-color: bisque;
+}
+.deskrproject{
+   width: 40%;
+   margin: auto;
+   padding: 50px 20px;
+   text-align: center;
+   & img{ 
+      height: 250px;
+   }
+  }
+section.howto{
+  height: 640px;
+  padding-top: 100px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgb(192, 154, 96);
+  border-radius: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.howto img{
+  height: 250px;
+}
+.deskhowto{
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.dokumentasi{
+  margin: 20px;
+    text-align: center;
+}
+.cardprofile{
+    background-color: rgb(213, 209, 209);
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+   
+}
+.imgprofile img{
+    width: 200px;
+    height: auto;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
