@@ -1,141 +1,183 @@
-header{
-  text-align: center;
-  background-color: rgb(234, 155, 52);
-  padding: 10px 15px;
-}
-nav{
-  margin: 10px;
- 
-}
-nav a{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: brown;
-    padding: 5px 15px;
-    color: rgb(239, 253, 42);
-    text-decoration: none;
-    border-radius: 15px 0px 15px 0px;
-    transition: 1s;
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
 }
 
-nav a:hover{
-  color: rgb(202, 105, 25);
-  background-color: antiquewhite;
-  border-radius: 15px 0px 15px 0px;
-  box-shadow: 5px 5px 5px -2px burlywood;
-  padding: 7px 20px;
-  transition: 0.5s;
-  
+html {
+    scroll-behavior: smooth;
 }
 
-body{
-  margin: 0px;
-  background-color: brown;
-}
-
-.home{
-  background-image: url(logo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
-  padding-top: 50px;
-
-}
-.deskripsihome{
-  width: 40%;
-  font-size: 20px;
-  background-size: cover;
-  padding-top: 50px;
-  margin-left: 50px;
-  & h3{
-    color: rgb(14, 8, 8);
-    background-color: rgba(250, 104, 0, 0.856);
-    padding: 10px 10px;
-    border-radius: 10px;
-  }
-  
-  & p {
-    color:rgb(0, 0, 0) ;
-    background-color: rgb(202, 123, 33);
-    border-radius: 10px;
-    padding: 10px 10px;
-  }
-
-  & h1 {
-    color: rgb(241, 183, 35);
-  }
-}
-
-.deskripsihome a{
-  text-decoration: none;
-  color: burlywood;
-  background-color: rgb(197, 109, 28);
-  padding: 10px 25px;
-  border-radius: 30px
-}
-.deskripsihome a:hover{
-  box-shadow: 0px 0px 7px 12px;
-  transition: 1s;
-}
-section.project img{
-height: 300px;
-text-align: center;
-background-color: bisque;
-}
-.deskrproject{
-   width: 40%;
-   margin: auto;
-   padding: 50px 20px;
-   text-align: center;
-   & img{ 
-      height: 250px;
-   }
-  }
-section.howto{
-  height: 640px;
-  padding-top: 100px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-color: rgb(192, 154, 96);
-  border-radius: 20px;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  margin-left: 35px;
-  margin-right: 35px;
-}
-.howto img{
-  height: 250px;
-}
-.deskhowto{
-  display: flex;
-  width: 60%;
-  margin: auto;
-}
-.dokumentasi{
-  margin: 20px;
-    text-align: center;
-}
-.cardprofile{
-    background-color: rgb(213, 209, 209);
-    padding: 15px;
-    width: 300px;
-    margin: auto;
-    text-align: center;
-   
-}
-.imgprofile img{
-    width: 200px;
-    height: auto;
-}
-.medsos{
-    left: 0;
-    bottom: 0;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    position: fixed;
     width: 100%;
-    text-align: center;
-    height: 40px;
-    padding-top: 5px;
+    background: rgb(199, 192, 60);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 10;
+    box-sizing: border-box;
 }
-.medsos a{
+
+.banner {
+   font-family: 'Fredoka One', cursive;
+    font-size: 22px;
+    color: #8B4513;
+}
+
+nav a {
+    margin-left: 25px;
     text-decoration: none;
-    padding: 10px 10px;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.3);
+    color: #8B4513;
+}
+
+section.home {
+    height: 800px;
+    background-image: url("BgHome.png");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.kotakbiotek {
+    text-align: center;
+    background: #e68b04cc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.namabiotek {
+    font-size: 32px;
+    margin: 0;
+    color: rgb(19, 18, 18);
+    font-family: 'Fredoka One', cursive;
+}
+
+.deskbiotek {
+    margin: 10px 0;
+    background: rgb(202, 123, 33);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.kotakbiotek img {
+    width: 200px;
+    margin-top: 10px;
+}
+
+section.project {
+    padding: 100px 20px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+.fotoProject {
+    position: relative;
+    width: 400px;
+    margin: auto;
+}
+
+.fotoProject img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.textProject {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: rgb(8, 8, 8);
+    background: rgba(255, 237, 137, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section.howto {
+    padding: 100px 40px;
+    text-align: center;
+    background-color: rgb(199, 125, 14);
+    color: rgb(7, 7, 7);
+    border-radius: 20px;
+    margin: 35px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.howto h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.dokumentasi img {
+    width: 300px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.dokumentasi p {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+section.profile {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardProfile {
+    width: 250px;
+    background: rgb(245, 206, 33);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+.imgProfile img {
+    width: 100%;
+}
+
+.deskProfile {
+    padding: 10px;
+}
+
+.deskProfile h3 {
+    margin: 10px 0 5px 0;
+}
+
+.medsos {
+    padding: 10px;
+}
+
+.medsos a {
+    margin: 0 10px;
+    color: black;
     font-size: 24px;
+    text-decoration: none;
+}
+
+.medsos a:hover {
+    color: rgb(232, 139, 9);
 }
