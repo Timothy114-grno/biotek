@@ -77,7 +77,10 @@ section.home {
     font-family: 'Fredoka One', cursive;
 }
 
-
+.kotakbiotek img {
+    width: 200px;
+    margin-top: 10px;
+}
 
 section.project {
     padding: 100px 20px;
@@ -123,15 +126,15 @@ section.howto {
     font-family: 'Fredoka One', cursive;
 }
 
-.deskhowto img {
-    width: 400px;
-    margin: auto;
-  display: block;
+.dokumentasi img {
+    width: 300px;
+    margin: 20px auto;
+    display: block;
     border-radius: 10px;
 }
 
-.deskhowto p {
-    text-align:center;
+.dokumentasi p {
+    text-align: left;
     max-width: 600px;
     margin: 20px auto;
     line-height: 1.8;
@@ -145,7 +148,7 @@ section.profile {
 
 .cardProfile {
     width: 250px;
-    background: rgb(155, 121, 84);
+    background: rgb(245, 206, 33);
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -176,5 +179,5 @@ section.profile {
 }
 
 .medsos a:hover {
-    color: rgb(202, 132, 34);
+    color: rgb(232, 139, 9);
 }
