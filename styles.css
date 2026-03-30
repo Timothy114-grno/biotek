@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     font-family: Arial, sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(209, 175, 130);
 }
 
 html {
@@ -15,7 +15,7 @@ header {
     padding: 10px 40px;
     position: fixed;
     width: 100%;
-    background: rgb(199, 192, 60);
+    background: rgb(173, 150, 33);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 10;
     box-sizing: border-box;
@@ -147,7 +147,7 @@ section.profile {
 }
 
 .cardProfile {
-    width: 250px;
+    width: 500px;
     background: rgb(245, 206, 33);
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
